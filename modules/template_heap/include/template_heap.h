@@ -10,7 +10,7 @@ template <typename T>
 class THeap {
  public:
   THeap() = default;
-  THeap(const THeap<T>& heap) { vec = heap.vec; }
+  THeap(const THeap<T>& heap) { vector = heap.vector; }
   void Push(T value);
   T Remove();
   void PrintHeap();
